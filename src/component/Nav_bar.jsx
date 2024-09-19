@@ -17,7 +17,7 @@ const links = [
   },
 ];
 
-const Navbar = () => {
+const Nav_bar = () => {
   return (
     <nav className="flex justify-between pt-6 items-center">
       <div>
@@ -43,4 +43,4 @@ const Navbar = () => {
     </nav>
   );
 };
-export default Navbar;
+export default Nav_bar;
