@@ -3,8 +3,8 @@ import logo from "/WorkFolio.svg";
 
 const Footer = () => {
   return (
-    <div className="max-w-[1240px] mx-auto px-6 flex justify-between items-center">
-      <img src={logo} alt="" />
+    <div className="max-w-[1240px] mx-auto px-6 flex-col md:flex-row flex gap-y-4 lg:justify-between lg:items-center">
+      <img src={logo} alt="" className="w-[6rem]" />
       <div className="flex gap-x-3">
         <li>About</li>
         <li>Login</li>

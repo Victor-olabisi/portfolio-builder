@@ -28,7 +28,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className="pt-[20rem] pb-[8rem] flex gap-x-[9.4rem] text-center">
+      <div className=" pt-[10rem] lg:pt-[20rem] pb-[8rem] flex gap-x-[9.4rem] text-center">
         <img src={union} alt="" />
         <img src={union2} alt="" className="hidden lg:block" />
       </div>
