@@ -5,9 +5,9 @@ import Footer from "./Footer";
 
 const Hero = () => {
   return (
-    <section className="pt-[10rem]">
+    <section className="pt-[5rem] lg:pt-[10rem]">
       <div className="max-w-[1000px] mx-auto text-center text-[#262626]">
-        <h1 className=" text-[3rem] lg:text-[5rem]  leading-[6rem] font-semibold">
+        <h1 className=" text-[2.5rem] lg:text-[5rem] leading-normal  lg:leading-[6rem] font-semibold">
           The Professional For
           <span className="text-[#0000FE]"> Software Engineers</span>
         </h1>
@@ -30,7 +30,7 @@ const Hero = () => {
       </div>
       <div className="pt-[20rem] pb-[8rem] flex gap-x-[9.4rem] text-center">
         <img src={union} alt="" />
-        <img src={union2} alt="" />
+        <img src={union2} alt="" className="hidden lg:block" />
       </div>
     </section>
   );

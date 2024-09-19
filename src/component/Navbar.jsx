@@ -19,12 +19,12 @@ const links = [
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between pt-6">
+    <nav className="flex justify-between pt-6 items-center">
       <div>
         <img src={logo} alt="workfolio logo" />
       </div>
       <div className="flex gap-x-6  items-center">
-        <ul className="flex gap-x-4">
+        <ul className=" gap-x-4 hidden md:flex">
           {links.map((link) => {
             return (
               <li key={link.id} className="cursor-pointer">
