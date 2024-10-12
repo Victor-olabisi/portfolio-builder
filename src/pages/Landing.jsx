@@ -12,6 +12,7 @@ const Landing = () => {
       <div className="py-[3rem] bg-[#F0F0F0] w-[100%]">
         <Footer />
       </div>
+      <div className="additional-content"></div>
     </section>
   );
 };

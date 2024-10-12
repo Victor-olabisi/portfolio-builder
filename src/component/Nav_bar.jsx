@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "/WorkFolio.svg";
 import { FaArrowRight } from "react-icons/fa";
 
@@ -33,12 +34,14 @@ const Nav_bar = () => {
             );
           })}
         </ul>
-        <button className="btn rounded-full bg-[#0000FE] text-white">
-          Get Started{" "}
-          <span>
-            <FaArrowRight />
-          </span>
-        </button>
+        <Link to={'/dashboard'}>
+          <button className="btn rounded-full bg-[#0000FE] text-white">
+            dashboard
+            <span>
+              <FaArrowRight />
+            </span>
+          </button>
+        </Link>
       </div>
     </nav>
   );
